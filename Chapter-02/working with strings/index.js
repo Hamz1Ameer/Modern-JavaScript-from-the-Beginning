@@ -66,3 +66,38 @@
 //     .map((ele) => ele.charAt(0).toUpperCase() + ele.substring(1).toLowerCase())
 //     .join(" ")
 // );
+
+
+
+
+
+//Math Object
+// console.log(Math, typeof Math);
+
+// let x = 10.134, y;
+
+// y = Math.ceil(x);
+// y = Math.floor(x);
+// y = Math.pow(x, 2);
+// y = Math.sqrt(x);
+// y = Math.abs(x);
+// y = Math.max(1, 8, 2, 4, 0, 6, -1);
+// y = Math.random(); // this will give random decimal values between 0 and 1
+// y = Math.random() * 10; // to get numbers between 1 -10 in decimal values
+// y = Math.floor(Math.random() * 10); // it will give floor values and remove decimals
+
+// console.log(y, typeof y);
+
+
+
+
+//Numbers challenge:  // generate 2 random numbers and return their sum, prod, div, 
+// x = Math.floor(Math.random() * 100 + 1);
+// y = Math.floor(Math.random() * 50 + 1);
+// console.log(x, y);
+// console.log(`${x}+${y} = ${x + y}`);
+// console.log(`${x}-${y} = ${x - y}`);
+// console.log(`${x}*${y} = ${x * y}`);
+// console.log(`${x}/${y} = ${x / y}`);
+// console.log(`${x}%${y} = ${x % y}`);
+
