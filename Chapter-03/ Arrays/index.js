@@ -59,3 +59,48 @@
 // x = Array.from(); //Creates an array from an iterable object.
 
 // console.log(x);
+
+//There are higher order Array Methods :
+// .forEach() .map() .filter() .reduce()
+// and 2 more for loops: for...in loop and  for...of loop
+
+//
+// challenges:
+// Add positive numbers in an array:
+// const numbers = [2, -30, 50, 20, -12, -9, 7];
+// let sumOfPositiveNumbers = numbers
+//   .filter((ele) => ele > 0)
+//   .reduce((sum, ele) => (sum = sum + ele), 0);
+// console.log(sumOfPositiveNumbers);
+
+//
+
+// challenge2:
+// const arr = ["programmer", "developer", "coder"];
+// let capitalizedWords = arr.map(
+//   (cur) => cur.charAt(0).toUpperCase() + cur.slice(1)
+// );
+// console.log(capitalizedWords);
+//
+// arr.toUpperCase();
+// console.log(arr);
+//
+
+//
+
+// const promise1 = new Promise((res, rej) => {
+//   setTimeout(() => {
+//     const arr = [1, 2, 3, 4];
+//     res(arr);
+//   }, 1000);
+// });
+
+// var x = promise1
+//   .then((arr) => {
+//     console.log(arr);
+//   })
+//   .catch(() => {
+//     console.log("error");
+//   })
+//   .finally(() => {});
+// console.log(x);
