@@ -14,7 +14,6 @@ const addItem=(event)=>{
     const li= document.createElement('li');
     li.appendChild(document.createTextNode(newItem));
     // console.log(li);
-
     
     const createButton=(classes)=>{
         const button = document.createElement("button");
