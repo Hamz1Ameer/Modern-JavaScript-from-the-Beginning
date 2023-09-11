@@ -1,6 +1,7 @@
 const itemList= document.getElementById('item-list');
 const itemInput= document.getElementById('item-input');
 const itemForm= document.getElementById('item-form');
+const clearBtn= document.getElementById('clear');
 
 const addItem=(event)=>{
     event.preventDefault();
@@ -37,5 +38,19 @@ const addItem=(event)=>{
     itemInput.value ='';
 }
 
+const removeItem=(event)=>{
+console.log(event.target.parentElement.classList)
+if(event.target.parentElement.classList.contains('remove-item')){
+       event.target.parentElement.parentElement.remove()
+}
+}
 
+const clearItem=()=>{
+    while (itemList.firstChild){
+        itemList.removeChild(itemList.firstChild)
+    }
+
+}
 itemForm.addEventListener('submit', addItem)
+itemList.addEventListener('click', removeItem)
+clearBtn.addEventListener('click', clearItem)
